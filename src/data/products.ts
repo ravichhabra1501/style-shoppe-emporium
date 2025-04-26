@@ -41,7 +41,7 @@ export const products: Product[] = [
     name: "Sports Watch",
     description: "Water-resistant sports watch with multiple functions.",
     price: 129.99,
-    image: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     category: "watches",
     featured: false
   },
@@ -132,6 +132,60 @@ export const products: Product[] = [
     description: "Comfortable everyday sneakers.",
     price: 89.99,
     image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "footwear",
+    featured: false
+  },
+  {
+    id: "15",
+    name: "Vintage Lace Wedding Dress",
+    description: "Romantic vintage-inspired wedding gown with delicate lace details.",
+    price: 499.99,
+    image: "https://images.unsplash.com/photo-1560248803-7deff0dce39a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "dresses",
+    featured: true
+  },
+  {
+    id: "16",
+    name: "Summer Beach Dress",
+    description: "Light, flowing dress perfect for beach vacations and summer parties.",
+    price: 79.99,
+    image: "https://images.unsplash.com/photo-1515876305430-f1a2e0de7eca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "dresses",
+    featured: false
+  },
+  {
+    id: "17",
+    name: "Luxury Chronograph Watch",
+    description: "High-end chronograph with Swiss movement and sapphire crystal.",
+    price: 799.99,
+    image: "https://images.unsplash.com/photo-1614815970532-eed66a3c9243?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "watches",
+    featured: true
+  },
+  {
+    id: "18",
+    name: "Minimalist Digital Watch",
+    description: "Sleek digital watch with minimalist design and advanced features.",
+    price: 149.99,
+    image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "watches",
+    featured: false
+  },
+  {
+    id: "19",
+    name: "Designer Ankle Boots",
+    description: "Stylish leather ankle boots with a modern, urban edge.",
+    price: 229.99,
+    image: "https://images.unsplash.com/photo-1556048219-bb3bd319feaa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "footwear",
+    featured: true
+  },
+  {
+    id: "20",
+    name: "Comfort Running Trainers",
+    description: "Advanced running shoes with superior cushioning and support.",
+    price: 189.99,
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     category: "footwear",
     featured: false
   }
