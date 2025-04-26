@@ -1,4 +1,3 @@
-
 export interface Product {
   id: string;
   name: string;
@@ -80,6 +79,60 @@ export const products: Product[] = [
     price: 89.99,
     image: "https://images.unsplash.com/photo-1577803645773-f96470509666?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     category: "accessories",
+    featured: false
+  },
+  {
+    id: "9",
+    name: "Cocktail Dress",
+    description: "Perfect for special occasions and parties.",
+    price: 149.99,
+    image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "dresses",
+    featured: false
+  },
+  {
+    id: "10",
+    name: "Floral Maxi Dress",
+    description: "Long flowing dress with beautiful floral pattern.",
+    price: 129.99,
+    image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "dresses",
+    featured: false
+  },
+  {
+    id: "11",
+    name: "Smart Watch",
+    description: "Modern smartwatch with health tracking features.",
+    price: 299.99,
+    image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "watches",
+    featured: false
+  },
+  {
+    id: "12",
+    name: "Classic Gold Watch",
+    description: "Elegant gold-tone watch with leather strap.",
+    price: 199.99,
+    image: "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "watches",
+    featured: false
+  },
+  {
+    id: "13",
+    name: "Hiking Boots",
+    description: "Durable hiking boots for outdoor adventures.",
+    price: 169.99,
+    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "footwear",
+    featured: false
+  },
+  {
+    id: "14",
+    name: "Casual Sneakers",
+    description: "Comfortable everyday sneakers.",
+    price: 89.99,
+    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    category: "footwear",
     featured: false
   }
 ];
